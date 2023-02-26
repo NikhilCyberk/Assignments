@@ -1,0 +1,26 @@
+git init
+git  add .
+git commit -m   "yourtext"
+git remote add origin  link of  repo
+git push origin master
+git push -u -f origin master
+
+git remote set-url <REMOTE-NAME> <NEW-URL>
+
+As we've said before, we keep talking about origin throughout this post, but there's nothing preventing you from working with whatever remote names you feel like. So a complete example with origin as the remote name and a URL to a real repo could look like this: 
+
+git remote set-url origin https://github.com/git/git.git
+
+
+token
+
+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
+
+
+https://github.com/NikhilCyberk/Assignments.git
+
+git remote remove origin
+git remote add origin https://[personal-access-token]@github.com/username/repo_name.git
+
+
+
